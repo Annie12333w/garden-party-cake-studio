@@ -1,0 +1,31 @@
+# Secrets: never push the real key
+.env
+.env.*
+!.env.example
+
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# Frontend dependencies and build output (recreated by `npm install` / `npm run build`)
+node_modules/
+frontend/dist/
+*.log
+
+# Generated demo database and uploaded photos (rebuilt automatically on first run)
+data/bakery.db
+data/*.building.db
+data/uploads/
+
+# Temporary files written while saving JSON atomically
+*.tmp
+
+# Local-only files: assistant settings, session notes
+.claude/
+CLAUDE.md
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

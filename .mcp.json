@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "garden-party-bakery": {
+      "command": "python",
+      "args": ["mcp_server/server.py"]
+    }
+  }
+}
